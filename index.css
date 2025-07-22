@@ -2,6 +2,7 @@
 
     box-sizing: border-box;
 
+
 }
 
 .container{
@@ -70,6 +71,43 @@ text-decoration: none;
 color: rgb(112, 112, 112);
 font-weight: 600;
 font-size: 16px;
+
+}
+
+
+.product-li{
+
+position: relative;
+
+
+
+}
+
+.product-li:hover .dropdown-nav-items{
+
+    visibility: visible;
+top: 100%;
+transition: 0.5s;
+}
+
+.dropdown-nav-items{
+position: absolute;
+top: 30%;
+left: -50px;
+padding: 5px 0;
+background-color: #ffffff;
+width: 150px;
+border-radius: 0 0 15px 15px;
+list-style: none;
+text-align: center;
+visibility: hidden;
+
+
+}
+
+.dropdown-nav-items li{
+
+margin: 5px 0;
 
 }
 
@@ -414,6 +452,7 @@ background: linear-gradient(180.00deg, rgb(255, 88, 155) 0.004%,rgb(255, 19, 111
  border-radius: 5px;
 color: rgb(255, 255, 255);
 font-weight: 900;
+border: none;
 
 }
 
